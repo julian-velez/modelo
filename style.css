@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  margin: 290px;
+}
+
+.grid-container {
+  display: grid;
+  /* la siguiente linea define  3 columnas  de tamaño igual*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); /* Define 3 filas de tamaño igual */
+  gap: 10px; /* define el espacio entre las celdas */
+}
+
+.grid-item {
+  background-color: #ddd; /* color de las celdas*/
+  padding: 20px; /* espacio interno  de las celdas*/
+  text-align: center;
+}
